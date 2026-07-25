@@ -10,6 +10,22 @@ const [teams, setTeams] = useState<any[]>([]);
 useEffect(() => {
 ladeTeams();
 }, []);
+async function deleteTeam(id: number) {
+
+if (!confirm("Team wirklich löschen?")) return;
+
+const { error } = await supabase
+.from("teams")
+.delete()
+.eq("id", id);
+
+if (!error) {
+ladeTeams();
+} else {
+alert(error.message);
+}
+
+}
 
 async function ladeTeams() {
 
@@ -52,6 +68,8 @@ return (
 
 <th className="text-left p-3">Telefon</th>
 
+<th className="text-left p-3">Aktionen</th>
+
 </tr>
 
 </thead>
@@ -73,6 +91,18 @@ return (
 <td className="p-3">{team.email}</td>
 
 <td className="p-3">{team.phone}</td>
+
+<td className="p-3">
+
+<button
+onClick={() => deleteTeam(team.id)}
+className="rounded bg-red-600 px-3 py-1 hover:bg-red-700"
+>
+Löschen
+</button>
+
+</td>
+
 
 </tr>
 
