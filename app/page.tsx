@@ -143,7 +143,7 @@ className="max-w-5xl mx-auto px-6 pb-24"
 
 <li>Jeder Ball zählt nur einmal. Springt ein Ball von selbst in einen Becher, zählt dieser Treffer ebenfalls.</li>
 
-<li>Becher dürfen nach vorheriger Absprache innerhalb des Teams jederzeit neu formiert werden.</li>
+<li>Becher dürfen ab vier Restbecher einmal neu formiert werden.</li>
 
 <li>Berührt ein Spieler während des Wurfs den Tisch oder die Becher des Gegners, gilt der Wurf als ungültig.</li>
 
