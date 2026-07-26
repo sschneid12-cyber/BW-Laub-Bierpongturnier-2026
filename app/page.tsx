@@ -94,6 +94,7 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
 <p>21.08.206
     <br />
     <strong>Turnierbeginn:</strong> 18:30 Uhr 
+    <br />
    <strong>Anmeldung vor Ort:</strong> 17:30 Uhr  </p>
 </div>
 
