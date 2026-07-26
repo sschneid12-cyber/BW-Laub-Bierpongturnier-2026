@@ -28,6 +28,19 @@ phone,
 if (error) {
 alert("Fehler: " + error.message);
 } else {
+    await fetch("/api/send-mail", {
+method: "POST",
+headers: {
+"Content-Type": "application/json",
+},
+body: JSON.stringify({
+team_name: teamName,
+player1,
+player2,
+email,
+}),
+});
+
 alert("Team erfolgreich angemeldet!");
 setTeamName("");
 setPlayer1("");
