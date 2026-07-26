@@ -1,119 +1,42 @@
-"use client";
+import Link from "next/link";
 
-import { useEffect, useState } from "react";
-import { supabase } from "@/lib/supabase";
-
-export default function Admin() {
-
-const [teams, setTeams] = useState<any[]>([]);
-
-useEffect(() => {
-ladeTeams();
-}, []);
-async function deleteTeam(id: number) {
-
-if (!confirm("Team wirklich löschen?")) return;
-
-const { error } = await supabase
-.from("teams")
-.delete()
-.eq("id", id);
-
-if (!error) {
-ladeTeams();
-} else {
-alert(error.message);
-}
-
-}
-
-async function ladeTeams() {
-
-const { data, error } = await supabase
-.from("teams")
-.select("*")
-.order("created_at", { ascending: true });
-
-if (!error) {
-setTeams(data || []);
-}
-
-}
-
+export default function Home() {
 return (
+<main className="min-h-screen bg-zinc-950 text-white">
 
-<main className="min-h-screen bg-zinc-900 text-white p-10">
+<section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
 
-<h1 className="text-4xl font-bold text-yellow-400 mb-8">
-
-🍺 Angemeldete Teams
-
+<h1 className="text-6xl font-extrabold text-yellow-400">
+🏆 BW Laub
 </h1>
 
-<table className="w-full">
+<h2 className="mt-4 text-4xl font-bold">
+Bierpongturnier 2026
+</h2>
 
-<thead>
+<p className="mt-6 max-w-2xl text-xl text-zinc-300">
+Melde dein Team an und kämpft gemeinsam um den Turniersieg.
+</p>
 
-<tr className="border-b border-zinc-600">
+<div className="mt-12 rounded-2xl bg-zinc-900 p-8 shadow-xl">
+<p className="text-lg text-zinc-400">
+Countdown bis zum Turnier
+</p>
 
-<th className="text-left p-3">Team</th>
+<h3 className="mt-3 text-5xl font-bold text-yellow-400">
+folgt
+</h3>
+</div>
 
-<th className="text-left p-3">Spieler 1</th>
-
-<th className="text-left p-3">Spieler 2</th>
-
-<th className="text-left p-3">Getränk</th>
-
-<th className="text-left p-3">E-Mail</th>
-
-<th className="text-left p-3">Telefon</th>
-
-<th className="text-left p-3">Aktionen</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-{teams.map((team) => (
-
-<tr key={team.id} className="border-b border-zinc-700">
-
-<td className="p-3">{team.team_name}</td>
-
-<td className="p-3">{team.player1}</td>
-
-<td className="p-3">{team.player2}</td>
-
-<td className="p-3">{team.drink}</td>
-
-<td className="p-3">{team.email}</td>
-
-<td className="p-3">{team.phone}</td>
-
-<td className="p-3">
-
-<button
-onClick={() => deleteTeam(team.id)}
-className="rounded bg-red-600 px-3 py-1 hover:bg-red-700"
+<Link
+href="/anmelden"
+className="mt-12 rounded-xl bg-yellow-500 px-10 py-4 text-xl font-bold text-black transition hover:bg-yellow-400"
 >
-Löschen
-</button>
+Jetzt Team anmelden
+</Link>
 
-</td>
-
-
-</tr>
-
-))}
-
-</tbody>
-
-</table>
+</section>
 
 </main>
-
 );
-
 }
