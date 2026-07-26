@@ -3,7 +3,7 @@ import Link from "next/link";
 import{ useEffect, useState } from "react";
 
 export default function Home() {
-    const tournamentDate = new Date("2026-06-27T14:00:00");
+    const tournamentDate = new Date("2026-08-21T18:30:00");
 
 const [timeLeft, setTimeLeft] = useState({
 days: 0,
