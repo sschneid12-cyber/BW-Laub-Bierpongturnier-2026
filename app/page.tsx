@@ -123,14 +123,44 @@ className="max-w-5xl mx-auto px-6 pb-24"
 📖 Regelwerk
 </h2>
 
-<div className="bg-zinc-900 rounded-2xl p-8 space-y-4">
-<p>🏓 Gespielt wird 2 gegen 2.</p>
-<p>🥤 10 Becher pro Team.</p>
-<p>🎯 Trifft ein Ball einen Becher, muss dieser getrunken werden.</p>
-<p>🔁 Jeder Ball zählt nur einmal.</p>
-<p>🏆 Gespielt wird im K.-o.-System.</p>
-<p>🍺 Fair Play steht an erster Stelle.</p>
+<div className="bg-zinc-900 rounded-2xl p-8 space-y-6">
+
+<h3 className="text-3xl font-bold text-yellow-400">
+📖 Turnierregeln
+</h3>
+
+<ul className="space-y-3 text-zinc-300 list-disc pl-6">
+
+<li>Gespielt wird im <strong>2-gegen-2</strong>-Modus.</li>
+
+<li>Jedes Team startet mit <strong>10 Bechern</strong>, die in einer Pyramide aufgebaut werden.</li>
+
+<li>Gespielt wird mit <strong>2 Tischtennisbällen</strong>.</li>
+
+<li>Treffen beide Spieler eines Teams gleichzeitig einen Becher, erhalten sie den Ball zurück und dürfen erneut werfen.</li>
+
+<li>Trifft ein Ball einen Becher, muss der Inhalt des Bechers getrunken und der Becher entfernt werden.</li>
+
+<li>Jeder Ball zählt nur einmal. Springt ein Ball von selbst in einen Becher, zählt dieser Treffer ebenfalls.</li>
+
+<li>Becher dürfen nach vorheriger Absprache innerhalb des Teams jederzeit neu formiert werden.</li>
+
+<li>Berührt ein Spieler während des Wurfs den Tisch oder die Becher des Gegners, gilt der Wurf als ungültig.</li>
+
+<li>Der Ball darf nach Kontakt mit dem Tisch abgewehrt werden. Direkte Würfe dürfen nicht abgewehrt werden.</li>
+
+<li>Gewonnen hat das Team, das zuerst alle Becher des Gegners trifft.</li>
+
+<li>Hat das unterlegene Team nach dem letzten Treffer noch beide Spieler am Zug, erhält es eine letzte Chance (Redemption).</li>
+
+<li>Im Zweifelsfall entscheidet ausschließlich die Turnierleitung.</li>
+
+<li>Fair Play und respektvoller Umgang mit allen Teilnehmern werden vorausgesetzt.</li>
+
+</ul>
+
 </div>
+
 </section>
 
 </main>
