@@ -7,7 +7,7 @@ export async function POST(req: Request) {
 const body = await req.json();
 
 try {
-await resend.emails.send({
+const result = await resend.emails.send({
 from: "onboarding@resend.dev",
 to: body.email,
 subject: "Anmeldung Bierpongturnier",
@@ -18,8 +18,8 @@ html: `
 <p>Spieler 2: ${body.player2}</p>
 `,
 });
-
-return NextResponse.json({ success: true });
+console.log("Resend:", result);
+return NextResponse.json(result);
 } catch (error) {
 return NextResponse.json({ error }, { status: 500 });
 }
