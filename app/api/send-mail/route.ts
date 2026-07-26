@@ -32,7 +32,7 @@ Alle Informationen zum Turnier findet ihr auf unserer Website:
 </p>
 
 <p>
-<a href="https://DEINE-WEBSITE.de"
+<a href="https://bw-laub-bierpongturnier-2026.vercel.app"
 style="background:#f59e0b;color:white;padding:12px 20px;
 text-decoration:none;border-radius:6px;display:inline-block;">
 Zur Turnier-Website
