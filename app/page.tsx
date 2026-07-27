@@ -91,17 +91,11 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
 
 <div className="bg-zinc-900 rounded-2xl p-6">
 <h3 className="text-2xl font-bold mb-4">📅 Datum</h3>
-<p>21.08.206
-    <br />
-    <strong>Turnierbeginn:</strong> 18:30 Uhr 
+<p>21.08.206 18:30Uhr
     <br />
     <strong>Anmeldeschluss:</strong> 10.08.2026
-<br />
-<strong>Treffpunkt:</strong> 17:30 Uhr
-<br />
-<strong>Turnierbeginn:</strong> 18:30 Uhr
 
-   <strong>Angemeldete Teams müssen um 17:30Uhr vor Ort sein</strong> </p>
+   <strong>Angemeldete Teams müssen um 17:30 Uhr vor Ort sein</strong> </p>
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
@@ -110,8 +104,8 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
-<h3 className="text-2xl font-bold mb-4">💰 Startgebühr 20€</h3>
-<p>folgt</p>
+<h3 className="text-2xl font-bold mb-4">💰 Startgebühr </h3>
+<p>20€</p>
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
