@@ -105,7 +105,8 @@ onChange={(e) => setDrink(e.target.value)}
 <option value="">Bitte auswählen</option>
 <option value="Bier">Bier</option>
 <option value="Radler">Radler</option>
-<option value="Weißweinschorle">Weißweinschorle</option>
+<option value="Weißweinschorle Süß">Weißweinschorle Süß</option>
+<option value="Weißweinschorle Sauer">Weißweinschorle Sauer</option>
 </select>
 </div>
 

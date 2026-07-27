@@ -95,7 +95,13 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
     <br />
     <strong>Turnierbeginn:</strong> 18:30 Uhr 
     <br />
-   <strong>Anmeldung vor Ort:</strong> 17:30 Uhr  </p>
+    <strong>Anmeldeschluss:</strong> 10.08.2026
+<br />
+<strong>Treffpunkt:</strong> 17:30 Uhr
+<br />
+<strong>Turnierbeginn:</strong> 18:30 Uhr
+
+   <strong>Angemeldete Teams müssen um 17:30Uhr vor Ort sein</strong> </p>
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
@@ -104,13 +110,13 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
-<h3 className="text-2xl font-bold mb-4">💰 Startgebühr</h3>
+<h3 className="text-2xl font-bold mb-4">💰 Startgebühr 20€</h3>
 <p>folgt</p>
 </div>
 
 <div className="bg-zinc-900 rounded-2xl p-6">
 <h3 className="text-2xl font-bold mb-4">🏆 Preise</h3>
-<p>folgt</p>
+<p>je nach Teilnehmer Zahl</p>
 </div>
 
 </div>
