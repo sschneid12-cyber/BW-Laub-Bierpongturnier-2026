@@ -91,12 +91,12 @@ className="max-w-5xl mx-auto px-6 py-24 space-y-12"
 
 <div className="bg-zinc-900 rounded-2xl p-6">
 <h3 className="text-2xl font-bold mb-4">📅 Datum</h3>
-<p>21.08.206 18:30Uhr </p>
+<p>21.08.2026 18:30Uhr </p>
 </div>  
 
 <div className="bg-zinc-900 rounded-2xl p-6">
 <h3 className="text-2xl font-bold mb-4">📅 Anmeldeschluss</h3>
-<p>10.08.206 </p>
+<p>10.08.2026 </p>
 </div>  
     
 
