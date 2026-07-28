@@ -140,20 +140,18 @@ className="max-w-5xl mx-auto px-6 pb-24"
 
 <p>• In der Vorrunde werden alle Mannschaften in <strong>4er-Gruppen</strong> eingeteilt.</p>
 <p>• Jede Mannschaft bestreitet <strong>3 Gruppenspiele</strong> (Jeder gegen Jeden). Anschließend folgt die K.-o.-Phase.</p>
-<p>• Die besten Teams jeder Gruppe qualifizieren sich für die K.-o.-Phase, die je nach Teilnehmerzahl spätestens ab dem <strong>Sechzehntelfinale</strong> beginnt.</p>
+<p>• Die zwei besten Teams jeder Gruppe qualifizieren sich für die K.-o.-Phase</p>
 <p>• Jedes Spiel dauert maximal <strong>15 Minuten</strong>.</p>
 <p>• Versenkt ein Team alle Becher des Gegners, erhält es <strong>3 Punkte</strong>.</p>
 <p>• Sind nach Ablauf der Zeit auf beiden Seiten noch Becher vorhanden, gewinnt das Team mit den meisten Treffern und erhält <strong>2 Punkte</strong>.</p>
 <p>• Bei einem Unentschieden erhält jedes Team <strong>1 Punkt</strong>.</p>
 <p>• Reihenfolge in der Tabelle: Punkte → Becherdifferenz → mehr getroffene Becher → direkter Vergleich → Entscheidungswurf.</p>
-<p>• Gespielt wird mit <strong>Bier oder Weinschorle</strong>. Das Getränk wird in die Becher gefüllt.</p>
+<p>• Gespielt wird mit <strong>Bier, Radler oder Weinschorle</strong>. Das Getränk wird in die Becher gefüllt.</p>
 
 <h3 className="text-2xl font-bold text-yellow-400 mt-10">
 🏆 K.-o.-Phase
 </h3>
 
-<p>• Die K.-o.-Phase beginnt je nach Teilnehmerzahl spätestens ab dem <strong>Sechzehntelfinale</strong>.</p>
-<p>• Zusätzlich findet ein <strong>Spiel um Platz 3</strong> statt.</p>
 <p>• In der K.-o.-Phase gibt es <strong>keine Unentschieden</strong>. Steht es nach 15 Minuten gleich, entscheidet ein <strong>Sudden-Death-Wurf</strong> (je 1 Wurf pro Team, bis eine Entscheidung fällt).</p>
 
 <h3 className="text-2xl font-bold text-yellow-400 mt-10">
