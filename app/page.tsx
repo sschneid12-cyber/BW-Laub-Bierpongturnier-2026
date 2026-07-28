@@ -132,43 +132,68 @@ className="max-w-5xl mx-auto px-6 pb-24"
 📖 Regelwerk
 </h2>
 
-<div className="bg-zinc-900 rounded-2xl p-8 space-y-6">
+<div className="bg-zinc-900 rounded-2xl p-8 space-y-4">
 
-<h3 className="text-3xl font-bold text-yellow-400">
-📖 Turnierregeln
+<h3 className="text-2xl font-bold text-yellow-400">
+🏓 Allgemeine Spielregeln
 </h3>
 
-<ul className="space-y-3 text-zinc-300 list-disc pl-6">
+<p>• In der Vorrunde werden alle Mannschaften in <strong>4er-Gruppen</strong> eingeteilt.</p>
+<p>• Jede Mannschaft bestreitet <strong>3 Gruppenspiele</strong> (Jeder gegen Jeden). Anschließend folgt die K.-o.-Phase.</p>
+<p>• Die besten Teams jeder Gruppe qualifizieren sich für die K.-o.-Phase, die je nach Teilnehmerzahl spätestens ab dem <strong>Sechzehntelfinale</strong> beginnt.</p>
+<p>• Jedes Spiel dauert maximal <strong>15 Minuten</strong>.</p>
+<p>• Versenkt ein Team alle Becher des Gegners, erhält es <strong>3 Punkte</strong>.</p>
+<p>• Sind nach Ablauf der Zeit auf beiden Seiten noch Becher vorhanden, gewinnt das Team mit den meisten Treffern und erhält <strong>2 Punkte</strong>.</p>
+<p>• Bei einem Unentschieden erhält jedes Team <strong>1 Punkt</strong>.</p>
+<p>• Reihenfolge in der Tabelle: Punkte → Becherdifferenz → mehr getroffene Becher → direkter Vergleich → Entscheidungswurf.</p>
+<p>• Gespielt wird mit <strong>Bier oder Weinschorle</strong>. Das Getränk wird in die Becher gefüllt.</p>
 
-<li>Gespielt wird im <strong>2-gegen-2</strong>-Modus.</li>
+<h3 className="text-2xl font-bold text-yellow-400 mt-10">
+🏆 K.-o.-Phase
+</h3>
 
-<li>Jedes Team startet mit <strong>10 Bechern</strong>, die in einer Pyramide aufgebaut werden.</li>
+<p>• Die K.-o.-Phase beginnt je nach Teilnehmerzahl spätestens ab dem <strong>Sechzehntelfinale</strong>.</p>
+<p>• Zusätzlich findet ein <strong>Spiel um Platz 3</strong> statt.</p>
+<p>• In der K.-o.-Phase gibt es <strong>keine Unentschieden</strong>. Steht es nach 15 Minuten gleich, entscheidet ein <strong>Sudden-Death-Wurf</strong> (je 1 Wurf pro Team, bis eine Entscheidung fällt).</p>
 
-<li>Gespielt wird mit <strong>2 Tischtennisbällen</strong>.</li>
+<h3 className="text-2xl font-bold text-yellow-400 mt-10">
+🎯 Ablauf & Wurfregeln
+</h3>
 
-<li>Treffen beide Spieler eines Teams gleichzeitig einen Becher, erhalten sie den Ball zurück und dürfen erneut werfen.</li>
+<p>• Die erstgenannte Mannschaft beginnt.</p>
+<p>• Beide Teammitglieder werfen abwechselnd.</p>
+<p>• Werden beide Bälle eines Teams in einer Runde versenkt, darf das Team erneut werfen.</p>
+<p>• Becher bleiben stehen, bis beide Bälle geworfen wurden.</p>
+<p>• Der Ellenbogen darf beim Wurf nicht über die Tischkante ragen.</p>
+<p>• Aufsetzer dürfen vom Gegner weggeschlagen werden. Trifft der Ball dennoch, zählt der Treffer doppelt.</p>
+<p>• Trifft eine <strong>Bombe</strong> (beide Bälle im selben Becher), müssen insgesamt <strong>3 Becher</strong> getrunken werden.</p>
+<p>• Steht ein Becher wackelig an der Kante, darf er nach Rücksprache mit dem Gegner wieder auf die Markierung gestellt werden.</p>
+<p>• Fällt ein Becher nach einem Wurf um, wird er wieder aufgestellt und befüllt. Der Wurf zählt, der Becher jedoch nicht als getroffen.</p>
+<p>• Ein kreisender Ball im Becher darf nicht ausgepustet werden.</p>
+<p>• Bounce Shots und Trickshots sind nicht erlaubt.</p>
+<p>• Beim letzten Becher gibt es keinen Nachwurf.</p>
+<p>• Sobald nur noch <strong>5 Becher</strong> stehen, dürfen diese einmal neu zusammengestellt werden.</p>
 
-<li>Trifft ein Ball einen Becher, muss der Inhalt des Bechers getrunken und der Becher entfernt werden.</li>
+<h3 className="text-2xl font-bold text-yellow-400 mt-10">
+🍺 Getränke & Becher
+</h3>
 
-<li>Jeder Ball zählt nur einmal. Springt ein Ball von selbst in einen Becher, zählt dieser Treffer ebenfalls.</li>
+<p>• Jede Mannschaft erhält eigene Becher und nutzt diese während des gesamten Turniers.</p>
+<p>• Wer möchte, kann seine Becher an der Bar ausspülen lassen.</p>
+<p>• Getroffene Becher werden neben dem Tisch platziert.</p>
+<p>• Das unterlegene Team muss die restlichen Becher des Siegerteams nicht austrinken.</p>
 
-<li>Becher dürfen ab vier Restbecher einmal neu formiert werden.</li>
+<h3 className="text-2xl font-bold text-yellow-400 mt-10">
+🤝 Ergebnisse & Fairplay
+</h3>
 
-<li>Berührt ein Spieler während des Wurfs den Tisch oder die Becher des Gegners, gilt der Wurf als ungültig.</li>
-
-<li>Der Ball darf nach Kontakt mit dem Tisch abgewehrt werden. Direkte Würfe dürfen nicht abgewehrt werden.</li>
-
-<li>Gewonnen hat das Team, das zuerst alle Becher des Gegners trifft.</li>
-
-<li>Hat das unterlegene Team nach dem letzten Treffer noch beide Spieler am Zug, erhält es eine letzte Chance (Redemption).</li>
-
-<li>Im Zweifelsfall entscheidet ausschließlich die Turnierleitung.</li>
-
-<li>Fair Play und respektvoller Umgang mit allen Teilnehmern werden vorausgesetzt.</li>
-
-</ul>
+<p>• Jedes Team meldet sein Spielergebnis eigenständig bei der Turnierleitung.</p>
+<p>• Entscheidungen der Turnierleitung sind verbindlich.</p>
+<p>• Fairness und Respekt stehen jederzeit an erster Stelle.</p>
+<p>• Viel Erfolg und viel Spaß beim BW Laub Bierpongturnier 2026! 🍻</p>
 
 </div>
+
 
 </section>
 
