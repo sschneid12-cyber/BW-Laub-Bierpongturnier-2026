@@ -1,3 +1,4 @@
+ 'use client'
  import { createClient } from '@supabase/supabase-js'
  import { useEffect, useState } from 'react'
     export default function TurnierPage() {
@@ -19,6 +20,7 @@ async function loadMatches() {
 
   if (!error && data) {
     setMatches(data)
+    console.log(data)
   }
 }
 return (
