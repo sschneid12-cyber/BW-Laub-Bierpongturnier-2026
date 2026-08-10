@@ -1,4 +1,27 @@
-export default function TurnierPage() {
+ import { createClient } from '@supabase/supabase-js'
+ import { useEffect, useState } from 'react'
+    export default function TurnierPage() {
+        const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+        );
+  const [matches, setMatches] = useState<any[]>([])
+
+useEffect(() => {
+  loadMatches()
+}, [])
+
+async function loadMatches() {
+  const { data, error } = await supabase
+    .from('tournament_matches')
+    .select('*')
+    .order('table_number')
+
+  if (!error && data) {
+    setMatches(data)
+  }
+}
+
 return (
 <main className="min-h-screen bg-zinc-950 text-white px-6 py-10">
 <div className="max-w-6xl mx-auto space-y-10">
@@ -23,28 +46,35 @@ Runde 1
 </div>
 
 <div className="grid md:grid-cols-2 gap-4">
-{[
-["Tisch 1", "Bierkönige", "Pong Panthers"],
-["Tisch 2", "Cup Crushers", "Bauwagen Elite"],
-["Tisch 3", "Hopfen Helden", "Ball Baller"],
-["Tisch 4", "Team 7", "Team 8"],
-["Tisch 5", "Team 9", "Team 10"],
-["Tisch 6", "Team 11", "Team 12"],
-["Tisch 7", "Team 13", "Team 14"],
-["Tisch 8", "Team 15", "Team 16"],
-].map(([tisch, a, b]) => (
-<div key={tisch} className="bg-zinc-900 rounded-2xl p-5 border border-zinc-800">
-<div className="flex justify-between items-center mb-4">
-<span className="text-yellow-400 font-bold">{tisch}</span>
-<span className="text-xs bg-zinc-800 px-2 py-1 rounded-full">Läuft</span>
-</div>
+{matches.map((match) => (
+  <div
+    key={match.id}
+    className="bg-zinc-900 rounded-2xl p-5 border border-zinc-800"
+  >
+    <div className="flex justify-between items-center mb-4">
+      <span className="text-yellow-400 font-bold">
+        Tisch {match.table_number}
+      </span>
+      <span className="text-xs bg-zinc-800 px-2 py-1 rounded-full">
+        {match.played ? 'Fertig' : 'Läuft'}
+      </span>
+    </div>
 
-<div className="space-y-3 text-center">
-<div className="text-lg font-semibold">{a}</div>
-<div className="text-zinc-500">VS</div>
-<div className="text-lg font-semibold">{b}</div>
-</div>
-</div>
+    <div className="space-y-3">
+      <div className="flex items-center justify-between">
+        <span className="font-medium">{match.team_a}</span>
+        <span className="text-zinc-500">vs</span>
+      </div>
+
+      <div className="flex items-center justify-between">
+        <span className="font-medium">{match.team_b}</span>
+      </div>
+    </div>
+
+    <button className="mt-5 w-full rounded-xl bg-yellow-500 px-4 py-2 font-semibold text-black hover:bg-yellow-400 transition">
+      Ergebnis eintragen
+    </button>
+  </div>
 ))}
 </div>
 </section>
