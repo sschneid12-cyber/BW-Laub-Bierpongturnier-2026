@@ -56,25 +56,23 @@ Runde 1
       <span className="text-yellow-400 font-bold">
         Tisch {match.table_number}
       </span>
+
       <span className="text-xs bg-zinc-800 px-2 py-1 rounded-full">
-        {match.played ? 'Fertig' : 'Läuft'}
+        {match.match_played ? 'Fertig' : 'Läuft'}
       </span>
     </div>
 
-    <div className="space-y-3">
-      <div className="flex items-center justify-between">
-        <span className="font-medium">{match.team_a}</span>
-        <span className="text-zinc-500">vs</span>
+    <div className="space-y-3 text-center">
+      <div className="text-lg font-semibold">
+        {match.team_a}
       </div>
 
-      <div className="flex items-center justify-between">
-        <span className="font-medium">{match.team_b}</span>
+      <div className="text-zinc-500">VS</div>
+
+      <div className="text-lg font-semibold">
+        {match.team_b}
       </div>
     </div>
-
-    <button className="mt-5 w-full rounded-xl bg-yellow-500 px-4 py-2 font-semibold text-black hover:bg-yellow-400 transition">
-      Ergebnis eintragen
-    </button>
   </div>
 ))}
 </div>
