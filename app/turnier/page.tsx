@@ -21,7 +21,6 @@ async function loadMatches() {
     setMatches(data)
   }
 }
-
 return (
 <main className="min-h-screen bg-zinc-950 text-white px-6 py-10">
 <div className="max-w-6xl mx-auto space-y-10">
