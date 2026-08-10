@@ -78,62 +78,7 @@ Runde 1
 </div>
 </section>
 
-{/* Tabellen */}
-<section className="space-y-6">
-<h2 className="text-3xl font-bold text-yellow-400 text-center">
-Gruppentabellen
-</h2>
 
-<div className="grid md:grid-cols-2 gap-6">
-{[
-"Gruppe A",
-"Gruppe B",
-"Gruppe C",
-"Gruppe D",
-].map((gruppe) => (
-<div key={gruppe} className="bg-zinc-900 rounded-2xl p-5 border border-zinc-800">
-<div className="flex justify-between items-center mb-4">
-<h3 className="text-xl font-bold text-yellow-400">{gruppe}</h3>
-<span className="text-xs bg-green-700 px-2 py-1 rounded-full">
-Top 2 weiter
-</span>
-</div>
-
-<table className="w-full text-sm">
-<thead className="text-zinc-400 border-b border-zinc-700">
-<tr>
-<th className="text-left py-2">Team</th>
-<th className="py-2">Pkt</th>
-<th className="py-2">+/-</th>
-</tr>
-</thead>
-<tbody>
-<tr className="border-b border-zinc-800">
-<td className="py-2 font-medium">Bierkönige</td>
-<td className="text-center">0</td>
-<td className="text-center">0</td>
-</tr>
-<tr className="border-b border-zinc-800">
-<td className="py-2 font-medium">Pong Panthers</td>
-<td className="text-center">0</td>
-<td className="text-center">0</td>
-</tr>
-<tr className="border-b border-zinc-800">
-<td className="py-2 font-medium">Cup Crushers</td>
-<td className="text-center">0</td>
-<td className="text-center">0</td>
-</tr>
-<tr>
-<td className="py-2 font-medium">Bauwagen Elite</td>
-<td className="text-center">0</td>
-<td className="text-center">0</td>
-</tr>
-</tbody>
-</table>
-</div>
-))}
-</div>
-</section>
 
 {/* Nächste Phase */}
 <section className="space-y-6">
