@@ -140,7 +140,7 @@ className="max-w-5xl mx-auto px-6 pb-24"
 
 <p>• In der Vorrunde werden alle Mannschaften in <strong>4er-Gruppen</strong> eingeteilt.</p>
 <p>• Jede Mannschaft bestreitet <strong>3 Gruppenspiele</strong> (Jeder gegen Jeden). Anschließend folgt die K.-o.-Phase.</p>
-<p>• Die zwei besten Teams jeder Gruppe qualifizieren sich für die K.-o.-Phase</p>
+<p>• Die zwei besten Teams jeder Gruppe qualifizieren sich für die K.-o.-Phase. Zusätzlich qualifizieren sind die vier besten Drittplazierten aller Gruppen</p>
 <p>• Jedes Spiel dauert maximal <strong>15 Minuten</strong>.</p>
 <p>• Versenkt ein Team alle Becher des Gegners, erhält es <strong>3 Punkte</strong>.</p>
 <p>• Sind nach Ablauf der Zeit auf beiden Seiten noch Becher vorhanden, gewinnt das Team mit den meisten Treffern und erhält <strong>2 Punkte</strong>.</p>
@@ -167,10 +167,12 @@ className="max-w-5xl mx-auto px-6 pb-24"
 <p>• Trifft eine <strong>Bombe</strong> (beide Bälle im selben Becher), müssen insgesamt <strong>3 Becher</strong> getrunken werden.</p>
 <p>• Steht ein Becher wackelig an der Kante, darf er nach Rücksprache mit dem Gegner wieder auf die Markierung gestellt werden.</p>
 <p>• Fällt ein Becher nach einem Wurf um, wird er wieder aufgestellt und befüllt. Der Wurf zählt, der Becher jedoch nicht als getroffen.</p>
+<p>•Wenn ein Team seine eigenen Becher umwirft, gelten diese Becher als getroffen und werden nicht wieder aufgestellt.</p>
 <p>• Ein kreisender Ball im Becher darf nicht ausgepustet werden.</p>
 <p>• Bounce Shots und Trickshots sind nicht erlaubt.</p>
 <p>• Beim letzten Becher gibt es keinen Nachwurf.</p>
 <p>• Sobald nur noch <strong>5 Becher</strong> stehen, dürfen diese einmal neu zusammengestellt werden.</p>
+<p>• Ein getroffener Becher muss direkt ausgetrunken werden, erst nachdem der Becher ausgetrunken wurde, darf der nächst Wurf erfolgen.</p>
 
 <h3 className="text-2xl font-bold text-yellow-400 mt-10">
 🍺 Getränke & Becher
